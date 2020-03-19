@@ -71,6 +71,12 @@ Run interactive Shell
 
 `$ python manage.py shell`
 
+Add super user
+
+`$ python manage.py createsuperuser`
+
+---
+
 ### Attention
 
 In case the code editor does not detect packages, open the code editor settings and set the python interpreter to the one in the environment previously created
@@ -101,7 +107,7 @@ For example:
 
 `"python.pythonPath": "/home/abc/dev/ala/venv/bin/python",`
 
-You can use an environment variable in the path setting using the syntax ${env:VARIABLE}. For example, if you've created a variable named PYTHON_INSTALL_LOC with a path to an interpreter, you can then use the following setting value:
+You can use an environment variable in the path setting using the syntax \${env:VARIABLE}. For example, if you've created a variable named PYTHON_INSTALL_LOC with a path to an interpreter, you can then use the following setting value:
 
 `"python.pythonPath": "${env:PYTHON_INSTALL_LOC}",`
 
@@ -109,6 +115,12 @@ You can use an environment variable in the path setting using the syntax ${env:V
 
 ```json
 {
-  "python.pythonPath": "~\\Documents\\SoftwareProjcts\\Python-Django\\Python-Django\\venv\\Scripts\\python.exe",
+  "python.pythonPath": "~\\Documents\\SoftwareProjcts\\Python-Django\\Python-Django\\venv\\Scripts\\python.exe"
 }
 ```
+
+#### External references
+
+- [Environments in VSCode]('https://code.visualstudio.com/docs/python/environments')
+
+---
