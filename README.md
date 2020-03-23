@@ -124,3 +124,30 @@ You can use an environment variable in the path setting using the syntax \${env:
 - [Environments in VSCode]('https://code.visualstudio.com/docs/python/environments')
 
 ---
+
+# Introduction to Python
+
+Welcome to Stack Builders' introduction to Python. After this training you will be able to start coding with Python.
+
+This course is for version 3 of the Python programming language. It’s recommended to use the latest available.
+
+## Resources
+
+- The Scientist & the Engineer ([keynote video](https://www.youtube.com/watch?v=862xL6jm_PQ))
+- [Python style guide](http://google.github.io/styleguide/pyguide.html)
+- [Clean code with Python](https://github.com/zedr/clean-code-python)
+- [Type Annotations with Python](https://www.stackbuilders.com/tutorials/python/using-types-in-python-with-mypy/)
+- [The Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/)
+
+## Syllabus
+
+All threads can be executed in parallel (pun intended).
+
+| [Thread 1](threads/1.md) | [Thread 2](threads/2.md)   | [Thread 3](threads/3.md) |
+| ------------------------ | -------------------------- | ------------------------ |
+| Background               | Basics and primitive types | Software Design          |
+| Setup                    | Known structures           | Functional Programming   |
+| Python for the web       | Being pythonic             | Packaging and OOS        |
+| Toolkit                  | Testing                    | Paralellism              |
+
+[START!](threads/1.md)
